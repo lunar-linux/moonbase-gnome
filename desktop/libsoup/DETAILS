@@ -1,12 +1,12 @@
           MODULE=libsoup
-           MAJOR=2.35
-         VERSION=$MAJOR.5
-          SOURCE=$MODULE-$VERSION.tar.bz2
+           MAJOR=2.38
+         VERSION=$MAJOR.1
+          SOURCE=$MODULE-$VERSION.tar.xz
       SOURCE_URL=$GNOME_URL/sources/$MODULE/$MAJOR
-      SOURCE_VFY=sha1:0c0c5ffa275c05e10e4b2d0debee9ac648a12bac
+      SOURCE_VFY=sha1:8418440ff59917dee2e5618965cf8683b61258bf
         WEB_SITE=http://www.gnome.org
          ENTERED=20030413
-         UPDATED=20110821
+         UPDATED=20120502
            PSAFE=no
            SHORT="a SOAP implementation in C"
 
