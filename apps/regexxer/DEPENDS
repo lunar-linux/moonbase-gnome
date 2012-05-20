@@ -1,0 +1,4 @@
+depends gnome-vfsmm
+depends gconfmm
+depends pcre
+depends libglademm

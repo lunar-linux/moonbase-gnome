@@ -1,0 +1,3 @@
+depends  libbonoboui
+
+optional_depends  "%JAVA_SDK"  ""  ""  "for Java support"

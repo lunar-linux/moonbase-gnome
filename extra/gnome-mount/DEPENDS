@@ -1,0 +1,4 @@
+depends libnotify
+depends eject
+
+optional_depends nautilus "" "--disable-nautilus-extension" "for Nautilus extension"

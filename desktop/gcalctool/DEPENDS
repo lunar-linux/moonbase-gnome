@@ -1,0 +1,2 @@
+depends  libgnomeui
+depends  gnome-doc-utils

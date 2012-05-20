@@ -1,0 +1,3 @@
+depends gnome-python
+depends pil
+depends reportlab

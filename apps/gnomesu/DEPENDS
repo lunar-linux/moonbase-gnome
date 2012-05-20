@@ -1,0 +1,2 @@
+depends  libzvt
+depends  libgnomeui

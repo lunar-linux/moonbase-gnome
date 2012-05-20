@@ -1,0 +1,4 @@
+depends gnome-session
+depends gnome-doc-utils
+depends rarian
+depends %GECKO_RENDERER
