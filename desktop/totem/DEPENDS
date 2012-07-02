@@ -9,7 +9,7 @@ optional_depends  "hal"            \
                   "--without-hal"  \
                   "for extended mountable media support"
 
-optional_depends  "udev"            \
+optional_depends  "%UDEV"           \
                   "--with-udev"     \
                   "--without-udev"  \
                   "for remote access"
