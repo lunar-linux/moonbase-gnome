@@ -7,6 +7,5 @@ depends GConf
 depends gnome-panel
 depends libxklavier
 depends PolicyKit-gnome
-depends ConsoleKit
 depends sessreg
 depends gnome-session
