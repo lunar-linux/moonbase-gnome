@@ -5,11 +5,6 @@ depends  %SSL
 depends  neon
 depends  dbus-glib
 
-optional_depends  "hal"             \
-                  "--enable-hal"    \
-                  "--disable-hal"   \
-                  "for hal support"
-
 optional_depends  "avahi"            \
                   "--enable-avahi"   \
                   "--disable-avahi"  \

@@ -4,11 +4,6 @@ depends  libmusicbrainz
 depends  gst-plugins-good
 depends  totem-pl-parser
 
-optional_depends  "hal"            \
-                  "--with-hal"     \
-                  "--without-hal"  \
-                  "for extended mountable media support"
-
 optional_depends  "%UDEV"           \
                   "--with-udev"     \
                   "--without-udev"  \
