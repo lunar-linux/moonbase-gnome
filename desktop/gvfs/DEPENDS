@@ -1,4 +1,4 @@
-depends udev
+depends %UDEV
 depends glib-2
 depends dbus
 depends intltool
