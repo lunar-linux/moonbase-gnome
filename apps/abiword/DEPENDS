@@ -1,6 +1,10 @@
 depends  fribidi
 depends  wv
 depends  boost
+depends  goffice
+depends  cairo
+depends  gtk+-2
+depends  librsvg
 
 optional_depends  "gucharmap"    "" "" "enable character map for abiword"
 optional_depends  "gtkmathview"  "" "" "enable a built-in formula editor"
