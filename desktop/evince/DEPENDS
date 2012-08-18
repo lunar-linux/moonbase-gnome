@@ -2,7 +2,9 @@ depends  poppler
 depends  gnome-icon-theme
 depends  gnome-doc-utils
 #this should be optional, but currently doesn't compile without
-depends  GConf
+optional_depends  "GConf" \
+                  "--with-gconf" "--without-gconf" \
+                  "GConf support"
 
 optional_depends  "tiff"  \
                   "--enable-tiff"   \
