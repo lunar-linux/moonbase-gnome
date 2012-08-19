@@ -1,0 +1,14 @@
+depends glib-2
+depends dbus
+
+# gtk+-3 is currently not officially supported by lunar
+#optional_depends "gtk+-3" "" "--disable-editor" "build dconf editor"
+
+# A disabling option is missing from dconf
+# http://sources.gentoo.org/cgi-bin/viewvc.cgi/gentoo-x86/gnome-base/dconf/files/dconf-0.5.1-automagic-vala.patch
+optional_depends vala "" "" "to compile .vala source files"
+
+optional_depends  "gtk-doc"            \
+                  "--enable-gtk-doc"   \
+                  "--disable-gtk-doc"  \
+                  "for building documentation"
