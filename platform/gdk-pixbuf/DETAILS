@@ -1,12 +1,12 @@
           MODULE=gdk-pixbuf
            MAJOR=2.26
-         VERSION=$MAJOR.2
+         VERSION=$MAJOR.3
           SOURCE=$MODULE-$VERSION.tar.xz
       SOURCE_URL=$GNOME_URL/sources/$MODULE/$MAJOR
-      SOURCE_VFY=sha1:9a9d4d693951718e4956d4f303ff0f667d3ccf8a
+      SOURCE_VFY=sha1:8035170ecc8ae77d088c9c6e403b54f20c02bca0
         WEB_SITE=http://live.gnome.org/GObjectIntrospection
          ENTERED=20091105
-         UPDATED=20120813
+         UPDATED=20120901
            SHORT="An image loading library used with GNOME"
 
 cat << EOF
