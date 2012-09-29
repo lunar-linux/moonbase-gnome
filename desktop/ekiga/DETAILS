@@ -1,12 +1,11 @@
           MODULE=ekiga
-           MAJOR=3.3
-         VERSION=$MAJOR.2
-          SOURCE=$MODULE-$VERSION.tar.bz2
-      SOURCE_URL=$GNOME_URL/sources/$MODULE/$MAJOR
-      SOURCE_VFY=sha1:87189f8dc1a80b6a06bde028b93a2f2801892377
+         VERSION=3.9.90
+          SOURCE=$MODULE-$VERSION.tar.xz
+      SOURCE_URL=$GNOME_URL/sources/$MODULE/${VERSION%.*}
+      SOURCE_VFY=sha1:770309d54576dbbdfde0ee51ad87c0a5d0c88a9f
         WEB_SITE=http://ekiga.org
          ENTERED=20070315
-         UPDATED=20111118
+         UPDATED=20120929
            SHORT="Open source VoIP"
 
 cat << EOF
