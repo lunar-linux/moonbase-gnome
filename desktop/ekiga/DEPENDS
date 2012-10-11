@@ -4,7 +4,10 @@ depends cyrus-sasl
 
 
 optional_depends boost     "--with-boost"    "--without-boost"  "for boost library support"
-optional_depends libnotify "--enable-notify" "--disable-notify" "for desktop notification support"
+
+#needs gtk+3 libnotify
+#optional_depends libnotify "--enable-notify" "--disable-notify" "for desktop notification support"
+
 optional_depends dbus      "--enable-dbus"   "--disable-dbus"   "for dbus support"
 optional_depends avahi     "--enable-avahi"  "--disable-avahi"  "for avahi support"
 optional_depends openldap  "--enable-ldap"   "--disable-ldap"   "for OpenLDAP support"
