@@ -24,3 +24,8 @@ optional_depends "gobject-introspection"             \
                  "--enable-introspection"            \
                  "--disable-introspection"           \
                  "for gobject introspection support"
+
+optional_depends "libX11"                                           \
+                 "--with-x11"                                       \
+                 "--without-x11"                                    \
+                 "for X11 support (needed by Adobe Acrobat Reader)"
