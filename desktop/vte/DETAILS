@@ -1,12 +1,11 @@
           MODULE=vte
-           MAJOR=0.26
-         VERSION=$MAJOR.2
+         VERSION=0.28.2
           SOURCE=$MODULE-$VERSION.tar.bz2
-      SOURCE_URL=$GNOME_URL/sources/$MODULE/$MAJOR
-      SOURCE_VFY=sha1:4c8fb07403538b7f743ec1d7af7b127683c7b9c2
+      SOURCE_URL=$GNOME_URL/sources/$MODULE/${VERSION::4}
+      SOURCE_VFY=sha1:aaa36a583dcbbac8e0acf5e31fe560758a3655bd
         WEB_SITE=http://www.gnome.org
          ENTERED=20021013
-         UPDATED=20110829
+         UPDATED=20130103
            SHORT="A Virtual Terminal Emulator widget"
 
 cat << EOF
