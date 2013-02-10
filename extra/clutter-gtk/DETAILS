@@ -1,0 +1,16 @@
+          MODULE=clutter-gtk
+         VERSION=0.10.8
+          SOURCE=$MODULE-$VERSION.tar.bz2
+      SOURCE_URL=$GNOME_URL/sources/$MODULE/${VERSION%.*}
+      SOURCE_VFY=sha1:783b7fa0e826a18ed22d4c2723ba83c740c3a8fa
+        WEB_SITE=http://www.clutter-project.org
+         ENTERED=20080109
+         UPDATED=20130210
+           SHORT="Integrate Clutter into GTK+ applications"
+
+cat << EOF
+Clutter-GTK - GTK+ Integration library for Clutter
+Clutter-GTK is a library providing facilities to integrate Clutter into GTK+
+applications. It provides a GTK+ widget, GtkClutterEmbed, for embedding the
+default ClutterStage into any GtkContainer.
+EOF
