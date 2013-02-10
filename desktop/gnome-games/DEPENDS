@@ -3,6 +3,7 @@ depends  gnome-python-desktop
 depends  librsvg
 depends  libggz
 depends  ggz-client-libs
+depends  clutter
 
 optional_depends  "guile"  \
                   ""       \
