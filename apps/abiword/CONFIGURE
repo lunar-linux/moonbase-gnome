@@ -1,1 +1,0 @@
-mquery PLUGINS "Build all plugins supported by your setup?" y "--enable-plugins" "--disable-plugins"
