@@ -1,6 +1,10 @@
 depends  poppler
 depends  gnome-icon-theme
 depends  gnome-doc-utils
+
+# type 'application/octet-stream' is not supported
+depends  shared-mime-info
+
 #this should be optional, but currently doesn't compile without
 optional_depends  "GConf" \
                   "--with-gconf" "--without-gconf" \
