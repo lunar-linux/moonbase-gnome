@@ -1,12 +1,11 @@
           MODULE=atkmm
-           MAJOR=2.22
-         VERSION=$MAJOR.6
-          SOURCE=$MODULE-$VERSION.tar.bz2
-      SOURCE_URL=$GNOME_URL/sources/$MODULE/$MAJOR
-      SOURCE_VFY=sha1:9ca44756821f4d431c554e1cf8184989bb25ce12
+         VERSION=2.22.7
+          SOURCE=$MODULE-$VERSION.tar.xz
+      SOURCE_URL=$GNOME_URL/sources/$MODULE/${VERSION%.*}
+      SOURCE_VFY=sha1:c3273aa7b84fb163b0ad5bd3ee26b9d1cd4976bb
         WEB_SITE=http://www.gtkmm.org
          ENTERED=20110110
-         UPDATED=20111027
+         UPDATED=20130514
            SHORT="C++ wrapper for atk"
 
 cat << EOF
