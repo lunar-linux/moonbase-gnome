@@ -1,0 +1,6 @@
+# Fix compilation against new glib2 source from source mage:
+# http://list-archives.org/2013/06/12/sm-commit-lists-ibiblio-org/git-changes-to-master-grimoire-by-eric-sandall-0c66b558cbe5cd92c1bfb6c6e505389ecbd335fd/f/5222014069
+
+default_pre_build &&
+
+sedit 's:-DG_DISABLE_DEPRECATED::' "${SOURCE_DIRECTORY}"/activation-server/Makefile.{am,in}
