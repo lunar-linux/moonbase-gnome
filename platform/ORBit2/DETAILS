@@ -6,7 +6,7 @@
       SOURCE_URL=$GNOME_URL/sources/$MODULE/$MAJOR
      SOURCE2_URL=https://raw.github.com/pld-linux/ORBit2/master/
       SOURCE_VFY=sha1:e7c26aa4b82c146b3ec08d490e3469b4913e4e2f
-     SOURCE2_VFY=sha1:82e727784df8393c3201c8bfa59f07d30cd4774f
+     SOURCE2_VFY=sha1:2f870075ab9721b42d7da8d1a522ca02d0822a38
         WEB_SITE=http://www.gnome.org
          ENTERED=20020714
          UPDATED=20101202
