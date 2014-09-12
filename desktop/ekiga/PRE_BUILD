@@ -1,0 +1,4 @@
+default_pre_build &&
+
+# fix build with gcc 4.9
+sedit '36 i #include <iostream>' plugins/loudmouth/loudmouth-dialect.cpp
