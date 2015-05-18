@@ -1,13 +1,4 @@
-(
 
-   ./configure  --prefix=${GNOME210_PREFIX:-/usr}  \
-                --build=$BUILD        \
-                --sysconfdir=/etc     \
-                --disable-gtk-doc     \
-                --localstatedir=/var  \
-                --infodir=${GNOME210_PREFIX:-/usr}/share/info  \
-                --mandir=${GNOME210_PREFIX:-/usr}/share/man    \
-                $OPTS                                         &&
-    default_make
+ OPTS+=" --sysconfdir=/etc --disable-gtk-doc-html --localstatedir=/var"
 
-) > $C_FIFO 2>&1
+ default_build
