@@ -1,7 +1,7 @@
 depends  gvfs
 depends  gnome-menus
 depends  gnome-desktop
-depends  libelf
+depends  elfutils
 depends  nss
 
 optional_depends  "gdb"  ""  ""  "for gnome debugging support"
