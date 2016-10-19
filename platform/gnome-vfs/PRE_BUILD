@@ -1,0 +1,10 @@
+default_pre_build &&
+patch_it $SOURCE2 1 &&
+patch_it $SOURCE3 1 &&
+patch_it $SOURCE4 1 &&
+patch_it $SOURCE5 1 &&
+sedit 's;$(srcdir)/auto-test;auto-test;' test/Makefile.am &&
+libtoolize --force &&
+aclocal &&
+autoconf &&
+automake --add-missing

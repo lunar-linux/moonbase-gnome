@@ -1,7 +1,7 @@
 depends  gamin
 depends  GConf
 depends  gnome-mime-data
-depends  %SSL
+depends  gnutls
 depends  neon
 depends  dbus-glib
 
