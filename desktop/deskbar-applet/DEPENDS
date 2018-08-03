@@ -1,4 +1,4 @@
-depends  dbus-python
+depends  python-dbus
 depends  gnome-python
 depends  gnome-desktop
 depends  gnome-python-desktop
