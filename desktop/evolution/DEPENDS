@@ -25,7 +25,7 @@ optional_depends  gtk-doc  \
                   "--with-help=no"   \
                   "for gtk-doc support"
 
-optional_depends  Python  \
+optional_depends  python2  \
                   "--enable-python"  \
                   ""  \
                   "for Python plugin support"
