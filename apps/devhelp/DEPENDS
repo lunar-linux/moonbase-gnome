@@ -1,4 +1,0 @@
-depends  GConf
-depends  libwnck
-depends  webkitgtk3
-depends  libunique
