@@ -4,7 +4,7 @@ depends  libmusicbrainz
 depends  gst-plugins-good
 depends  totem-pl-parser
 
-optional_depends  "%UDEV"           \
+optional_depends  "systemd"           \
                   "--with-udev"     \
                   "--without-udev"  \
                   "for remote access"
