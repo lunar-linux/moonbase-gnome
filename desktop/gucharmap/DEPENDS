@@ -1,7 +1,6 @@
-depends  gtk+-2
-
-optional_depends  "gnome-doc-utils" "--enable-scrollkeeper" "--disable-scrollkeeper"\
-                  "for user manual"
-
-optional_depends  "GConf"  "--enable-gconf"  "--disable-gconf"  \
-                  "for GNOME GConf support"
+depends gtk+-3
+depends gobject-introspection
+depends meson
+depends unzip
+depends vala
+depends yelp-tools
