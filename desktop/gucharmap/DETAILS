@@ -1,13 +1,13 @@
           MODULE=gucharmap
-         VERSION=2.33.2
+         VERSION=15.1.1
           SOURCE=$MODULE-$VERSION.tar.bz2
-      SOURCE_URL=$GNOME_URL/sources/$MODULE/${VERSION%.*}
-      SOURCE_VFY=sha1:15a81bf193d00ca26ebb47dc99c2d26efd0c8df6
-      WEB_SITE=http://gucharmap.sourceforge.net
+      SOURCE_URL=https://gitlab.gnome.org/GNOME/gucharmap/-/archive/$VERSION/
+      SOURCE_VFY=sha256:f05b21586e6a762fb01561892b48f917230f29a115aa7f8405396843feccc9de
+        WEB_SITE=http://gucharmap.sourceforge.net
+            TYPE=meson
          ENTERED=20030421
-         UPDATED=20120802
-           SHORT="A GTK+-2 Unicode character map viewer"
-
+         UPDATED=20240120
+           SHORT="A GTK+-3 Unicode character map viewer"
 cat << EOF
 gucharmap allows you to browse though all the available Unicode
 characters and categories for the installed fonts, and to examine
