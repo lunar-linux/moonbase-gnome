@@ -1,4 +1,2 @@
 depends libbonobo
 depends shared-mime-info
-depends GConf
-
