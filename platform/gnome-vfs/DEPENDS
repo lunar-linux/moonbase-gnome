@@ -11,12 +11,6 @@ optional_depends  "avahi"            \
                   "for zeroconf network support"
 
 optional_depends  "samba"  \
-                  "--enable-samba --with-samba-includes=/usr/include --with-samba-libs=/usr/lib"  \
+                  "--enable-samba --with-samba-includes=/usr/include/samba-4.0"  \
                   "--disable-samba"  \
                   "for samba support"
-
-optional_depends  "gtk-doc"            \
-                  "--enable-gtk-doc"   \
-                  "--disable-gtk-doc"  \
-                  "for building documentation"
-
