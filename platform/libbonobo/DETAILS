@@ -1,9 +1,8 @@
           MODULE=libbonobo
-           MAJOR=2.32
-         VERSION=$MAJOR.1
+         VERSION=2.32.1
           SOURCE=$MODULE-$VERSION.tar.bz2
-      SOURCE_URL=$GNOME_URL/sources/$MODULE/$MAJOR
-      SOURCE_VFY=sha1:c7650434a4f328eae6f38a29ee8dadd455f35f9c
+      SOURCE_URL=$GNOME_URL/sources/$MODULE/${VERSION%.*}
+      SOURCE_VFY=sha256:9160d4f277646400d3bb6b4fa73636cc6d1a865a32b9d0760e1e9e6ee624976b
         WEB_SITE=http://www.gnome.org
          ENTERED=20020729
          UPDATED=20111118
